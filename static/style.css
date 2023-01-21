@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gideon+Roman&family=Grey+Qo&family=Mochiy+Pop+P+One&family=Oswald:wght@300&family=Pacifico&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.logo img{
+    height: 30px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.logo img:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+
+#navbar ul{
+    background-color: rgb(183, 21, 21);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px 24px;
+}
+
+#navbar li{
+   
+    list-style: none;
+   
+}
+
+#navbar li a{
+    
+    color: white;
+    font-size: 1.45rem;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    padding: 20px 24px;
+}
+
+#navbar li a:hover{                /*HOVER COMMAND*/
+    
+    color: rgb(80, 228, 159);
+   
+}
+
+#introSection{
+    padding: 20px 24px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.75rem;
+    background: center/cover no-repeat url('/static/b1.jpg');
+    margin: 0;
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.small {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    padding: 15px 18px;
+
+}
+
+#missionSection{
+    color: black;
+    /* background-color: rgb(202, 113, 113); */
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    display: block;
+
+    
+     
+}
+
+#missionSection h3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    
+}
+
+.card {
+    display: inline-block;
+    border: 2px black solid;
+    border-radius: 9px;
+    width: 30%;
+    margin: 12px 14px;
+    padding: 12px 14px;
+    height: 250px;
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card-img img{
+    height: 100px;
+}
+.card-img{
+    height: 100px;
+    padding: 12px 14px;
+    margin: 12px 14px;
+}
+
+#sponsorSection{
+    color: antiquewhite;
+    padding: 12px 14px;
+    background-color: rgb(227, 25, 25);
+    height: 300px;
+}
+
+#sponsorSection h3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+#sponsors {
+    height: 200px;
+    width: 745px;
+    margin: 30px auto;
+    padding: 12px 14px;
+    align-items: center;
+}
+
+#sponsors img{
+    height: 100px;
+    padding: 12px 14px;
+    
+}
+
+
+
+#footer{
+    color: white;
+    padding: 12px 14px;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
